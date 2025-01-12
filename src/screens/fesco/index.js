@@ -1,0 +1,22 @@
+import React from "react";
+import { Link } from "react-router-dom";
+
+const FESCO = () => {
+  return (
+    <div className="container">
+      <Link to="https://bill.pitc.com.pk/fescobill" className="link">
+        FESCO Web Bill
+      </Link>
+      <h3>Meter 1 Customer ID</h3>
+      <h2>1134671247</h2>
+      <h3>Meter 1 Reference Number</h3>
+      <h2>19132371972221</h2>
+      <h3>Meter 2 Customer ID</h3>
+      <h2>1135533816</h2>
+      <h3>Meter 2 Reference Number</h3>
+      <h2>19132371972226</h2>
+    </div>
+  );
+};
+
+export default FESCO;

@@ -1,0 +1,71 @@
+.authContainer {
+  display: flex;
+  height: 100vh;
+  padding: 16px;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(to right, #6a11cb, #2575fc);
+}
+
+.card {
+  width: 100%;
+  padding: 24px;
+  max-width: 400px;
+  text-align: center;
+  border-radius: 8px;
+  background-color: white;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.button {
+  font-size: 16px;
+  margin-top: 16px;
+  text-transform: none;
+  color: white !important;
+  background: linear-gradient(to right, #6a11cb, #2575fc);
+}
+
+/* Mobile Screen */
+
+@media (max-width: 600px) {
+  .card {
+    max-width: 95%;
+    padding: 10px;
+  }
+}
+
+.container {
+  display: flex;
+  margin-top: 40px;
+  align-items: center;
+  margin-bottom: 20px;
+  flex-direction: column;
+}
+
+.link {
+  font-size: 30px;
+  margin-top: 30px;
+  text-align: center;
+  text-decoration: none;
+  color: var(--text-dark);
+}
+.msg {
+  text-align: center;
+}
+
+body {
+  color: var(--text-dark);
+  background-color: var(--text-light);
+}
+
+/* Light Theme */
+:root {
+  --text-dark: #000000;
+  --text-light: #ffffff;
+}
+
+/* Dark Theme */
+[data-theme="dark"] {
+  --text-dark: #ffffff;
+  --text-light: #000000;
+}
