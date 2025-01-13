@@ -97,7 +97,7 @@ const ResetPasswordForm = () => {
     }
   };
   return (
-   <Box className="authContainer"sx={{height:{lg:"100vh",md:"100vh",sm:"100vh",xs:"75vh"}}}>
+   <Box className="authContainer">
       <Grid
         container
         justifyContent="center"
