@@ -29,7 +29,18 @@ function App() {
   return (
     <>
       {isAuthenticated ? (
-        <Box sx={{ position: "fixed" }}>
+        <Box   sx={{
+          gap: "8px",
+          display: "flex",
+          position: "fixed",
+          marginTop: "300px", 
+          flexDirection: "row",
+          alignItems: "flex-start", 
+          transform: "rotate(270deg)", 
+          transformOrigin: "top left", 
+          justifyContent: "flex-start", 
+        }}
+      >
           <Button
             sx={{
               cursor: "pointer",
