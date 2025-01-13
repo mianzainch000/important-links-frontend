@@ -1,8 +1,10 @@
 .authContainer {
+  margin: 0;
   display: flex;
-  padding: 16px;
-  height: 100vh;
+  overflow: hidden;
+  min-height: 100vh;
   align-items: center;
+  flex-direction: column;
   justify-content: center;
   background: linear-gradient(to right, #6a11cb, #2575fc);
 }
