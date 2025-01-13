@@ -101,7 +101,7 @@ const ResetPasswordForm = () => {
       <Grid container justifyContent="center" alignItems="center">
         <Grid item xs={11} sm={8} md={6} lg={4}>
           <Box className="card">
-            <Typography variant="h5" sx={{ marginBottom: "16px" }}>
+            <Typography variant="h5" sx={{ marginBottom: "16px" }}color="black">
               Reset Password Form
             </Typography>
             <form onSubmit={handleSubmit}>
