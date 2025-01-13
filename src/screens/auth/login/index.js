@@ -94,7 +94,7 @@ const LoginForm = () => {
         <Grid item xs={11} sm={8} md={6} lg={4}>
           <Box className="card">
             <Typography variant="h5" sx={{ marginBottom: "16px" }}>
-              Login
+              Logins
             </Typography>
             <form onSubmit={handleSubmit}>
               <TextField
