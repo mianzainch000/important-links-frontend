@@ -31,8 +31,8 @@ const Home = () => {
         Mix{" "}
       </Link>
 
-      <Link to="https://y2meta.tube/" className="link">
-        Dowmload viedo + audio
+      <Link to="https://en1.savefrom.net/102-youtube-music-downloader-2Ck.html" className="link">
+        Dowmload viedo
       </Link>
 
       <Link to="/interviews" className="link">

@@ -10,6 +10,9 @@ const Movies = () => {
       <Link to="https://themoviezflix.ae.org/about-us/" className="link">
         movieflix
       </Link>
+      <Link to="https://kickasstorrents.to/" className="link">
+        kickasstorrents
+      </Link>
     </div>
   );
 };

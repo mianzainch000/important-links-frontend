@@ -35,6 +35,18 @@ const Mix = () => {
         Article Synchronous vs Asynchronous{" "}
       </Link>
       <Link
+        to="https://editor.swagger.io/?_gl=1*1o03qna*_gcl_au*MTM1NzUyNDIzNS4xNzM2MzIyMjY1"
+        className="link"
+      >
+        Swagger{" "}
+      </Link>
+      <Link to="https://javascript.info/" className="link">
+        Modern JavaScript{" "}
+      </Link>
+      <Link to="https://echallan.psca.gop.pk/" className="link">
+        e-challan check{" "}
+      </Link>
+      <Link
         to="https://youtu.be/b4_kWaeVSmw?si=EBo3z1Wn0EE1JM_0"
         className="link"
       >
