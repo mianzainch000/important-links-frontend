@@ -22,27 +22,6 @@ const Mix = () => {
       <Link to="https://www.imagetotext.io/" className="link">
         Copy text from the image
       </Link>
-      <Link
-        to="https://www.freecodecamp.org/news/the-javascript-array-handbook"
-        className="link"
-      >
-        Array Article
-      </Link>
-      <Link
-        to="https://www.freecodecamp.org/news/synchronous-vs-asynchronous-in-javascript"
-        className="link"
-      >
-        Article Synchronous vs Asynchronous{" "}
-      </Link>
-      <Link
-        to="https://editor.swagger.io/?_gl=1*1o03qna*_gcl_au*MTM1NzUyNDIzNS4xNzM2MzIyMjY1"
-        className="link"
-      >
-        Swagger{" "}
-      </Link>
-      <Link to="https://javascript.info/" className="link">
-        Modern JavaScript{" "}
-      </Link>
       <Link to="https://echallan.psca.gop.pk/" className="link">
         e-challan check{" "}
       </Link>
