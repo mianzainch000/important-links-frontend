@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-
+import MoviesLinks from "../movies-links"
 const CV = () => {
   return (
     <div className="container">
@@ -19,6 +19,7 @@ const CV = () => {
       >
         Canva CV Template
       </Link>
+      <MoviesLinks />
     </div>
   );
 };

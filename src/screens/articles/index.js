@@ -4,7 +4,6 @@ import { Link } from "react-router-dom";
 const Articles = () => {
   return (
     <div className="container">
-      
       <Link
         to="https://www.freecodecamp.org/news/the-javascript-array-handbook"
         className="link"
@@ -30,7 +29,10 @@ const Articles = () => {
         to="https://platform.openai.com/docs/guides/text-generation"
         className="link"
       >
-        Chatgpt Doumentation{" "}
+        Chatgpt Documentation{" "}
+      </Link>
+      <Link to="   https://nodecron.com/docs" className="link">
+        NodeCron Documentation{" "}
       </Link>
     </div>
   );

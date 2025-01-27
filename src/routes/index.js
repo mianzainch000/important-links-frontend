@@ -4,9 +4,7 @@ import Mix from "../screens/mix";
 import Home from "../screens/home";
 import FESCO from "../screens/fesco";
 import Login from "../screens/auth/login";
-import Articles from "../screens/articles";
 import Interviews from "../screens/interviews";
-import MoviesLinks from "../screens/movies-links";
 import IslamicLinks from "../screens/islamic-links";
 import ResetPassword from "../screens/auth/resetPassword";
 import ForgotPassword from "../screens/auth/forgotPassword";
@@ -36,13 +34,11 @@ export const Router = () => {
           <Route element={<PrivateRoute />}>
             <Route>
               <Route path="/islamic-links" element={<IslamicLinks />} />
-              <Route path="/cv" element={<CV />} />
+              <Route path="cv+movie-links" element={<CV />} />
               <Route path="/home" element={<Home />} />
               <Route path="/fesco" element={<FESCO />} />
-              <Route path="/articles" element={<Articles />} />
               <Route path="/mix" element={<Mix />} />
               <Route path="/interviews" element={<Interviews />} />
-              <Route path="/movies-links" element={<MoviesLinks />} />
             </Route>
           </Route>
         </Routes>
