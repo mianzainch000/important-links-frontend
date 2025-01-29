@@ -1,6 +1,7 @@
 import React from "react";
 import Articles from "../articles";
 import { Link } from "react-router-dom";
+import MotorBike from "../motorbikeTuning";
 const Mix = () => {
   return (
     <>
@@ -46,6 +47,7 @@ const Mix = () => {
           Asif bahi link
         </Link>
         <div>Password2000</div>
+        <MotorBike />
         <h3>Message for HR</h3>
         <h3 className="msg">
           Dear Hiring Manager, I hope this email finds you well. I am writing to
