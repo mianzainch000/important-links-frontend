@@ -15,6 +15,10 @@ const FESCO = () => {
       <h2>1135533816</h2>
       <h3>Meter 2 Reference Number</h3>
       <h2>19132371972226</h2>
+      <h3>Umer Riaz Customer ID</h3>
+      <h2>1134698207</h2>
+      <h3>Umer Riaz Reference Number</h3>
+      <h2>19132371972191</h2>
     </div>
   );
 };
