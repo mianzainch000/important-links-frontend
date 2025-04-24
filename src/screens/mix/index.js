@@ -47,6 +47,12 @@ const Mix = () => {
           Asif bahi link
         </Link>
         <div>Password2000</div>
+        <Link
+          to="https://ytmods.com/download/youtube-premium-722"
+          className="link"
+        >
+          Vanced YouTube Download
+        </Link>
         <MotorBike />
         <h3>Message for HR</h3>
         <h3 className="msg">
