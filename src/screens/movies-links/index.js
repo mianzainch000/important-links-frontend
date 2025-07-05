@@ -13,6 +13,12 @@ const Movies = () => {
       <Link to="https://kickasstorrents.to/" className="link">
         kickasstorrents
       </Link>
+      <Link to="https://netfree2.cc/home/" className="link">
+        NetMirror
+      </Link>
+      <Link to="https://moviebox.ng//" className="link">
+        MovieBox
+      </Link>
     </div>
   );
 };
