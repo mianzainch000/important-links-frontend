@@ -48,6 +48,10 @@ const Interview = () => {
         5 December 2024 last day
       </div>
       <div className="container"> 11 july 2025 : ArhamSoft interview</div>
+      <div className="container">
+        {" "}
+        30 july 2025 : Orbix Technologies (online)
+      </div>
     </div>
   );
 };
