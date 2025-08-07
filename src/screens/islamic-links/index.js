@@ -4,8 +4,12 @@ import { Link } from "react-router-dom";
 const Islamic = () => {
   return (
     <div className="container">
-      <Link to="https://islamic-researches.netlify.app" className="link">
-        Islamic Researches
+      <Link to="https://islamic-research-next-js.netlify.app/" className="link">
+        Islamic Research Old Design
+      </Link>
+
+      <Link to="https://islamic-research-old.netlify.app/" className="link">
+        Old Islamic Research
       </Link>
 
       <Link to="https://islamicurdubooks.com" className="link">

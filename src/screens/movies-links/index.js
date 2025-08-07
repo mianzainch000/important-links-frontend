@@ -16,7 +16,7 @@ const Movies = () => {
       <Link to="https://netfree2.cc/home/" className="link">
         NetMirror
       </Link>
-      <Link to="https://moviebox.ng//" className="link">
+      <Link to="https://moviebox.ph/" className="link">
         MovieBox
       </Link>
     </div>
